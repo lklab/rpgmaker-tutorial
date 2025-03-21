@@ -9829,15 +9829,6 @@
               ]
             },
             {
-              "code": 121,
-              "indent": 0,
-              "parameters": [
-                1,
-                1,
-                0
-              ]
-            },
-            {
               "code": 0,
               "indent": 0,
               "parameters": []
@@ -9867,12 +9858,12 @@
           "conditions": {
             "actorId": 1,
             "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
+            "itemId": 7,
+            "itemValid": true,
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
             "switch1Id": 1,
-            "switch1Valid": true,
+            "switch1Valid": false,
             "switch2Id": 1,
             "switch2Valid": false,
             "variableId": 1,
@@ -9970,9 +9961,8 @@
               "code": 111,
               "indent": 0,
               "parameters": [
-                0,
-                1,
-                0
+                8,
+                7
               ]
             },
             {
@@ -10116,15 +10106,6 @@
                 7,
                 1,
                 0,
-                1
-              ]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [
-                1,
-                1,
                 1
               ]
             },
