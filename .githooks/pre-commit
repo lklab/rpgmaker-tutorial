@@ -7,6 +7,10 @@ STATUS=$?
 if [ $STATUS -ne 0 ]; then
   echo "❌ JSON formatting failed. Commit aborted."
   exit 1
-else
-  echo "✅ JSON formatting complete. Proceeding with commit."
 fi
+
+# ✅ 포맷된 파일들을 다시 git에 추가
+echo "📥 Adding reformatted JSON files to commit..."
+git add data/*.json
+
+echo "✅ JSON formatting complete. Proceeding with commit."
