@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "🔧 Running JSON formatter (Python)..."
+
+python3 tools/format_json.py
+STATUS=$?
+
+if [ $STATUS -ne 0 ]; then
+  echo "❌ JSON formatting failed. Commit aborted."
+  exit 1
+else
+  echo "✅ JSON formatting complete. Proceeding with commit."
+fi
