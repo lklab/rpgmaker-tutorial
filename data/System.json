@@ -352,7 +352,7 @@
   "switches": [
     "",
     "GetPotion",
-    "",
+    "Dungeon Door",
     "",
     "",
     "",
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 25005724,
+  "versionId": 77258127,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,
