@@ -347,8 +347,8 @@
     }
   ],
   "startMapId": 2,
-  "startX": 17,
-  "startY": 26,
+  "startX": 1,
+  "startY": 4,
   "switches": [
     "",
     "GetPotion",
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 61722328,
+  "versionId": 61315462,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,
