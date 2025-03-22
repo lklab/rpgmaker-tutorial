@@ -22,14 +22,14 @@
     "battlerName": "Goblin",
     "dropItems": [
       {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
+        "kind": 1,
+        "dataId": 7,
+        "denominator": 2
       },
       {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
+        "kind": 1,
+        "dataId": 2,
+        "denominator": 2
       },
       {
         "dataId": 1,
@@ -37,7 +37,7 @@
         "kind": 0
       }
     ],
-    "exp": 10,
+    "exp": 50,
     "traits": [
       {
         "code": 22,
@@ -55,7 +55,7 @@
         "value": 0
       }
     ],
-    "gold": 5,
+    "gold": 20,
     "name": "고블린",
     "note": "",
     "params": [
@@ -91,14 +91,14 @@
     "battlerName": "Gnome",
     "dropItems": [
       {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
+        "kind": 1,
+        "dataId": 10,
+        "denominator": 2
       },
       {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
+        "kind": 1,
+        "dataId": 11,
+        "denominator": 2
       },
       {
         "dataId": 1,
@@ -106,7 +106,7 @@
         "kind": 0
       }
     ],
-    "exp": 10,
+    "exp": 50,
     "traits": [
       {
         "code": 22,
@@ -124,7 +124,7 @@
         "value": 0
       }
     ],
-    "gold": 8,
+    "gold": 40,
     "name": "난쟁이",
     "note": "",
     "params": [
