@@ -1769,7 +1769,7 @@
       "type": 3,
       "variance": 20
     },
-    "description": "아군의 HP를 회복합니다.",
+    "description": "Recorvers 500 or more HP for 1 ally.",
     "effects": [],
     "hitType": 0,
     "iconIndex": 72,
@@ -3469,7 +3469,7 @@
       "type": 1,
       "variance": 20
     },
-    "description": "적에게 불 속성 피해를 입힙니다.",
+    "description": "Deals about 100 fire damage to 1 enemy.",
     "effects": [],
     "hitType": 2,
     "iconIndex": 64,
@@ -4089,7 +4089,7 @@
       "type": 1,
       "variance": 20
     },
-    "description": "모든 적에게 천둥 속성 피해를 입힙니다.",
+    "description": "Deals about 100 lightning damage to all enemies.",
     "effects": [],
     "hitType": 2,
     "iconIndex": 66,

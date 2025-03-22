@@ -207,5 +207,61 @@
         "span": 0
       }
     ]
+  },
+  {
+    "id": 6,
+    "members": [
+      {
+        "enemyId": 2,
+        "x": 238,
+        "y": 436,
+        "hidden": false
+      },
+      {
+        "enemyId": 2,
+        "x": 346,
+        "y": 436,
+        "hidden": false
+      },
+      {
+        "enemyId": 3,
+        "x": 222,
+        "y": 251,
+        "hidden": false
+      },
+      {
+        "enemyId": 3,
+        "x": 332,
+        "y": 233,
+        "hidden": false
+      }
+    ],
+    "name": "난쟁이*2, 까마귀*2",
+    "pages": [
+      {
+        "conditions": {
+          "actorHp": 50,
+          "actorId": 1,
+          "actorValid": false,
+          "enemyHp": 50,
+          "enemyIndex": 0,
+          "enemyValid": false,
+          "switchId": 1,
+          "switchValid": false,
+          "turnA": 0,
+          "turnB": 0,
+          "turnEnding": false,
+          "turnValid": false
+        },
+        "list": [
+          {
+            "code": 0,
+            "indent": 0,
+            "parameters": []
+          }
+        ],
+        "span": 0
+      }
+    ]
   }
 ]

@@ -167,7 +167,7 @@
       "type": 0,
       "variance": 20
     },
-    "description": "HP를 500포인트 회복합니다.",
+    "description": "Recovers 500 HP for 1 unit.",
     "effects": [
       {
         "code": 11,
@@ -266,7 +266,7 @@
       "type": 0,
       "variance": 20
     },
-    "description": "MP를 300포인트 회복합니다.",
+    "description": "Recovers 300 MP for 1 unit.",
     "effects": [
       {
         "code": 12,
@@ -299,7 +299,7 @@
       "type": 3,
       "variance": 20
     },
-    "description": "사용자의 전투 불능 상태를 회복시킵니다.\n(HP 절반 회복)",
+    "description": "Raises an ally from the Dead (and recovers 50% HP.)",
     "effects": [
       {
         "code": 22,
@@ -332,7 +332,7 @@
       "type": 0,
       "variance": 20
     },
-    "description": "사용자의 전투 불능 외 상태 이상을 치료합니다.",
+    "description": "Cures all status ailments on 1 ally, except Dead.",
     "effects": [
       {
         "code": 22,

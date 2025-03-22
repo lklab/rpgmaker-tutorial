@@ -173,7 +173,7 @@
   "optFloorDeath": false,
   "optFollowers": true,
   "optKeyItemsNumber": false,
-  "optSideView": false,
+  "optSideView": true,
   "optSlipDeath": false,
   "optTransparent": false,
   "partyMembers": [
@@ -527,7 +527,7 @@
       ]
     }
   ],
-  "testTroopId": 1,
+  "testTroopId": 6,
   "title1Name": "Ruins",
   "title2Name": "",
   "titleBgm": {
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 77258127,
+  "versionId": 33472996,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,
