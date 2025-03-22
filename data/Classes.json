@@ -961,6 +961,11 @@
         "code": 52,
         "dataId": 2,
         "value": 0
+      },
+      {
+        "code": 41,
+        "dataId": 2,
+        "value": 1
       }
     ],
     "learnings": [
@@ -1028,6 +1033,11 @@
         "level": 25,
         "note": "",
         "skillId": 189
+      },
+      {
+        "level": 1,
+        "skillId": 4,
+        "note": ""
       }
     ],
     "name": "마법사",
