@@ -120,7 +120,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 2,
+  "editMapId": 3,
   "elements": [
     "",
     "물리적",
@@ -346,9 +346,9 @@
       "volume": 90
     }
   ],
-  "startMapId": 2,
-  "startX": 1,
-  "startY": 4,
+  "startMapId": 3,
+  "startX": 21,
+  "startY": 22,
   "switches": [
     "",
     "GetPotion",
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 92652717,
+  "versionId": 25005724,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,

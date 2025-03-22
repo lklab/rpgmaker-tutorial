@@ -15,7 +15,7 @@
     "name": "보통 마을",
     "order": 2,
     "parentId": 0,
-    "scrollX": 952,
+    "scrollX": 941.3333333333334,
     "scrollY": 640.6666666666666,
     "quick": false
   },
@@ -25,8 +25,8 @@
     "name": "바위 동굴",
     "order": 4,
     "parentId": 0,
-    "scrollX": 816,
-    "scrollY": 1280,
+    "scrollX": 941.3333333333334,
+    "scrollY": 1072.6666666666667,
     "quick": false
   },
   {
