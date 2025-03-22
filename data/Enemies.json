@@ -278,21 +278,21 @@
     "id": 5,
     "actions": [
       {
-        "conditionParam1": 0,
-        "conditionParam2": 0,
-        "conditionType": 0,
+        "skillId": 4,
         "rating": 5,
-        "skillId": 1
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
       },
       {
-        "skillId": 99,
+        "skillId": 52,
         "rating": 4,
         "conditionType": 1,
         "conditionParam1": 0,
         "conditionParam2": 2
       },
       {
-        "skillId": 13,
+        "skillId": 119,
         "rating": 6,
         "conditionType": 2,
         "conditionParam1": 0,
@@ -345,13 +345,13 @@
     "name": "마수",
     "note": "",
     "params": [
-      1000,
+      1200,
       50,
       40,
       20,
       40,
       40,
-      40,
+      50,
       40
     ]
   }

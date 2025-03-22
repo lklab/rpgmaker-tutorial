@@ -120,7 +120,7 @@
     "pitch": 100,
     "volume": 90
   },
-  "editMapId": 2,
+  "editMapId": 3,
   "elements": [
     "",
     "물리적",
@@ -346,9 +346,9 @@
       "volume": 90
     }
   ],
-  "startMapId": 2,
-  "startX": 23,
-  "startY": 18,
+  "startMapId": 3,
+  "startX": 14,
+  "startY": 8,
   "switches": [
     "",
     "GetPotion",
@@ -484,7 +484,7 @@
   "testBattlers": [
     {
       "actorId": 1,
-      "level": 1,
+      "level": 4,
       "equips": [
         2,
         1,
@@ -495,7 +495,7 @@
     },
     {
       "actorId": 4,
-      "level": 1,
+      "level": 4,
       "equips": [
         31,
         0,
@@ -506,7 +506,7 @@
     },
     {
       "actorId": 6,
-      "level": 1,
+      "level": 4,
       "equips": [
         7,
         0,
@@ -517,7 +517,7 @@
     },
     {
       "actorId": 7,
-      "level": 1,
+      "level": 4,
       "equips": [
         7,
         0,
@@ -527,7 +527,7 @@
       ]
     }
   ],
-  "testTroopId": 6,
+  "testTroopId": 5,
   "title1Name": "Ruins",
   "title2Name": "",
   "titleBgm": {
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 11386916,
+  "versionId": 73099355,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,
