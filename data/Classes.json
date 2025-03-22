@@ -2011,6 +2011,11 @@
         "level": 25,
         "note": "",
         "skillId": 145
+      },
+      {
+        "level": 1,
+        "skillId": 5,
+        "note": ""
       }
     ],
     "name": "사제",
