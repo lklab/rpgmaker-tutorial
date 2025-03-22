@@ -141,7 +141,7 @@
     "몸",
     "장신구"
   ],
-  "gameTitle": "Tutorial",
+  "gameTitle": "Tutorial!!",
   "gameoverMe": {
     "name": "Gameover1",
     "pan": 0,
@@ -528,18 +528,18 @@
     }
   ],
   "testTroopId": 5,
-  "title1Name": "Ruins",
-  "title2Name": "",
+  "title1Name": "Canyon",
+  "title2Name": "Medieval",
   "titleBgm": {
-    "name": "Theme4",
+    "name": "Theme2",
     "pan": 0,
     "pitch": 100,
     "volume": 90
   },
   "titleCommandWindow": {
-    "background": 0,
-    "offsetX": 0,
-    "offsetY": 0
+    "offsetX": 200,
+    "offsetY": 40,
+    "background": 0
   },
   "variables": [
     "",
@@ -564,7 +564,7 @@
     "",
     ""
   ],
-  "versionId": 30231581,
+  "versionId": 11669657,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,
