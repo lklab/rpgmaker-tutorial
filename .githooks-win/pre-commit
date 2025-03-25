@@ -1,0 +1,11 @@
+#!/bin/sh
+
+./tools/python/python.exe tools/prettify_json.py
+STATUS=$?
+
+if [ $STATUS -ne 0 ]; then
+  echo "JSON prettify failed. Commit aborted."
+  exit 1
+fi
+
+git add data/*.json
