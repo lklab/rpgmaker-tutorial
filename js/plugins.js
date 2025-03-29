@@ -3,5 +3,6 @@
 var $plugins =
 [
 {"name":"TextPicture","status":true,"description":"Displays text as a picture.","parameters":{}},
-{"name":"CustomGoldWindow","status":true,"description":"골드 윈도우 표시","parameters":{}}
+{"name":"CustomGoldWindow","status":true,"description":"골드 윈도우 표시","parameters":{}},
+{"name":"CustomMessageBox","status":true,"description":"메시지 박스 커스텀","parameters":{}}
 ];
