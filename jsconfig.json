@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "allowJs": true,
+      "baseUrl": "./js",
+      "paths": {
+        "*": ["libs/*", "plugins/*"]
+      }
+    },
+    "include": [
+      "js/**/*.js"
+    ]
+}
