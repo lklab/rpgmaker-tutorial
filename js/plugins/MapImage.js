@@ -38,7 +38,8 @@ class Sprite_MapBoundImage extends Sprite {
         _Scene_Map_start.call(this);
 
         for (let i = 0; i < 5; ++i) {
-            const sprite = new Sprite_MapBoundImage('my_test/test_128', 17, 8 + i * 2, i >= 3 ? i + 1 : i);
+            let z = 4 - i;
+            const sprite = new Sprite_MapBoundImage('my_test/test_128', 17, 8 + i * 2, z >= 3 ? z + 1 : z);
             this._spriteset._tilemap.addChild(sprite);
         }
 
