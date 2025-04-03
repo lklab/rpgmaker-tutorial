@@ -4,6 +4,10 @@
  * @author 공부다
  *
  * @help ShaderTest.js
+ * 
+ * @command ApplyShockwave
+ * @text Apply Shockwave to Player
+ * @desc 플레이어에게 Shockwave 필터 적용
  */
 
 (() => {
@@ -28,6 +32,43 @@
         apply(filterManager, input, output, clear) {
             this._time += 0.016;
             this.uniforms.time = this._time;
+            super.apply(filterManager, input, output, clear);
+        }
+    }
+
+    class MyFilter extends PIXI.Filter {
+        constructor() {
+            const vertex = `
+                attribute vec2 aVertexPosition;
+                attribute vec2 aTextureCoord;
+                uniform mat3 projectionMatrix;
+                varying vec2 vTextureCoord;
+
+                void main(void){
+                    gl_Position = vec4((projectionMatrix * vec3(aVertexPosition, 1.0)).xy, 0.0, 1.0);
+                    vTextureCoord = aTextureCoord;
+                }
+            `
+
+            const fragment = `
+                precision mediump float;
+                varying vec2 vTextureCoord;
+                uniform sampler2D uSampler;
+                uniform float time;
+
+                void main(void){
+                    vec4 color = texture2D(uSampler, vTextureCoord);
+                    // color *= vec4(vTextureCoord.x, vTextureCoord.y, 1.0, 1.0);
+                    color *= 0.7 + 0.3 * sin(time);
+                    gl_FragColor = color;
+                }
+            `
+
+            super(vertex, fragment, { time: 0 });
+        }
+
+        apply(filterManager, input, output, clear) {
+            this.uniforms.time += 1.0 / 60.0;
             super.apply(filterManager, input, output, clear);
         }
     }
@@ -81,8 +122,10 @@
     Scene_Map.prototype.start = function () {
         _Scene_Map_start.call(this);
 
-        const filter = new PIXI.filters.ColorMatrixFilter();
-        filter.brightness(0.6); // 어둡게 만들기
+        // const filter = new PIXI.filters.ColorMatrixFilter();
+        // filter.brightness(0.6); // 어둡게 만들기
+
+        const filter = new MyFilter();
 
         // 화면 전체에 적용
         // SceneManager._scene.filters = [filter];
