@@ -5,5 +5,6 @@ var $plugins =
 {"name":"TextPicture","status":true,"description":"Displays text as a picture.","parameters":{}},
 {"name":"CustomGoldWindow","status":true,"description":"골드 윈도우 표시","parameters":{}},
 {"name":"CustomMessageBox","status":true,"description":"메시지 박스 커스텀","parameters":{}},
-{"name":"MapImage","status":true,"description":"맵상에 이미지 표시","parameters":{}}
+{"name":"MapImage","status":true,"description":"맵상에 이미지 표시","parameters":{}},
+{"name":"ShaderTest","status":true,"description":"쉐이더 공부","parameters":{}}
 ];

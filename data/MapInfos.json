@@ -6,8 +6,8 @@
     "name": "MainMap",
     "order": 1,
     "parentId": 0,
-    "scrollX": 816,
-    "scrollY": 640
+    "scrollX": 1131,
+    "scrollY": 636.5
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "보통 마을",
     "order": 2,
     "parentId": 0,
-    "scrollX": 941.3333333333334,
-    "scrollY": 594,
+    "scrollX": 1131,
+    "scrollY": 1283.5,
     "quick": false
   },
   {

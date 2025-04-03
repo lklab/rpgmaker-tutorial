@@ -17,7 +17,6 @@ class Sprite_MapBoundImage extends Sprite {
         this.sizeY = 2;
 
         this.bitmap.addLoadListener(() => {
-            console.log(`${this.bitmap.width}, ${this.bitmap.height}`)
             this.scale.set(this.sizeX * $gameMap.tileWidth() / this.bitmap.width, this.sizeY * $gameMap.tileHeight() / this.bitmap.height)
         });
         this.z = z;
