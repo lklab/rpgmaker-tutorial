@@ -35,3 +35,11 @@ yarn-debug.log*
 yarn-error.log*
 
 tools/python/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# custom
+temp/

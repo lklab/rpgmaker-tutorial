@@ -1,4 +1,4 @@
-# tools/prettify_json.py
+# tools/restore_json.py
 
 if __name__ == "__main__":
     from pathlib import Path
@@ -18,14 +18,13 @@ from tools.restorers import restorers
 
 data_dir = "data"
 
-def prettify_json_file(filepath: str):
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+def restore_json_file(filepath: str):
+    restorer = restorers.get(filepath.replace('\\', '/'))
+    if not restorer :
+        return True
 
-        restorer = restorers.get(filepath.replace('\\', '/'))
-        if restorer :
-            restorer.backup(data)
+    try:
+        data = restorer.restore()
 
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
@@ -33,6 +32,7 @@ def prettify_json_file(filepath: str):
         return True
 
     except Exception as e:
+        print(e)
         return False
 
 def main():
@@ -40,7 +40,7 @@ def main():
     for filename in os.listdir(data_dir):
         if filename.endswith(".json"):
             full_path = os.path.join(data_dir, filename)
-            if not prettify_json_file(full_path):
+            if not restore_json_file(full_path):
                 success = False
     if not success:
         sys.exit(1)
