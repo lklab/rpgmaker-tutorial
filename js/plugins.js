@@ -7,5 +7,6 @@ var $plugins =
 {"name":"CustomMessageBox","status":true,"description":"메시지 박스 커스텀","parameters":{}},
 {"name":"MapImage","status":false,"description":"맵상에 이미지 표시","parameters":{}},
 {"name":"ShaderTest","status":false,"description":"쉐이더 공부","parameters":{}},
-{"name":"Lighting","status":true,"description":"라이팅","parameters":{}}
+{"name":"Lighting","status":false,"description":"라이팅","parameters":{}},
+{"name":"Outline","status":true,"description":"아웃라인","parameters":{}}
 ];
