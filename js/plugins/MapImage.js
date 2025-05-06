@@ -36,11 +36,22 @@ class Sprite_MapBoundImage extends Sprite {
     Scene_Map.prototype.start = function () {
         _Scene_Map_start.call(this);
 
-        for (let i = 0; i < 5; ++i) {
-            let z = 4 - i;
-            const sprite = new Sprite_MapBoundImage('my_test/test_128', 17, 8 + i * 2, z >= 3 ? z + 1 : z);
-            this._spriteset._tilemap.addChild(sprite);
-        }
+        // for (let i = 0; i < 5; ++i) {
+        //     let z = 4 - i;
+        //     const sprite = new Sprite_MapBoundImage('my_test/test_128', 17, 8 + i * 2, z >= 3 ? z + 1 : z);
+        //     this._spriteset._tilemap.addChild(sprite);
+        // }
+        const sprite = new Sprite_MapBoundImage('my_test/test_128', 15, 9, 4.1);
+        this._spriteset._tilemap.addChild(sprite);
+
+        // 0.0-0.9 맵 바닥 타일만 가림
+        // 1.0     보통 캐릭터의 아래 이벤트와 같은 레벨
+        // 1.1-2.9 보통 캐릭터의 아래 이벤트를 가림
+        // 3.0     플레이어와 같은 레벨
+        // 3.1-3.9 플레이어를 가림
+        // 4.0-4.9 아래로 통과 가능한 맵 타일을 가림
+        // 5.0     보통 캐릭터의 위 이벤트와 같은 레벨
+        // 5.1-    최상위
 
         // z 값이 같으면 Y 값이 큰게 위로 올라옴
 
@@ -56,5 +67,11 @@ class Sprite_MapBoundImage extends Sprite {
         //     // 필요하면 글로벌 변수에 저장 (지우기용)
         //     $gameTemp._autoImageSprite = sprite;
         // }
+    };
+
+    const _Scene_Map_terminate = Scene_Map.prototype.terminate;
+    Scene_Map.prototype.terminate = function () {
+        _Scene_Map_terminate.call(this);
+        console.log('_Scene_Map_terminate');
     };
 })();
